@@ -1,0 +1,12 @@
+com\xixi\common\Invocation.class
+com\xixi\common\URL.class
+com\xixi\register\LocalRegister.class
+com\xixi\protocol\HttpServerHandler.class
+com\xixi\protocol\HttpServer.class
+com\xixi\register\RedisRegister.class
+com\xixi\protocol\DispatcherServlet.class
+com\xixi\Proxy\ProxyFactroy$1.class
+com\xixi\protocol\HttpClient.class
+com\xixi\register\MapRemoteRegister.class
+com\xixi\loadBalance\LoadBalance.class
+com\xixi\Proxy\ProxyFactroy.class

@@ -1,0 +1,10 @@
+xixi:
+  max-tries: 5
+  url:
+    hostname: localhost
+    port: 8080
+  redis:
+    host: localhost
+    port: 6379
+  loadBalance:
+    strategy: consistentHash #consistentHash, roundRobin
