@@ -27,4 +27,7 @@ public class Invocation implements Serializable {
         this.parameters = parameters;
         this.version = version;
     }
+
+    public Invocation() {
+    }
 }

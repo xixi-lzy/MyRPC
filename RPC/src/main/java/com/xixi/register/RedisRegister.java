@@ -24,6 +24,7 @@ public class RedisRegister {
             //throw new IllegalArgumentException("Invalid port number");
         }
         jedis.hset(interfaceName, url.getHostname()+":"+url.getPort(), url.toString());
+        jedis.hset(interfaceName + "_HEARTBEAT", url.getHostname()+":"+url.getPort(), String.valueOf(System.currentTimeMillis()));
     }
 
     public static List<URL> get(String interfaceName) {

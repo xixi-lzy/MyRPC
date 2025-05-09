@@ -8,6 +8,7 @@ import com.xixi.impl.HelloServiceImpl2;
 import com.xixi.processor.ServiceAnnotationProcessor;
 import com.xixi.protocol.HttpServer;
 import com.xixi.register.LocalRegister;
+import com.xixi.register.NodeCleaner;
 import com.xixi.register.RedisRegister;
 
 import java.util.Map;
